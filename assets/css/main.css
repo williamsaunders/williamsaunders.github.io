@@ -3310,6 +3310,43 @@ input, select, textarea {
 
 		}
 
+/* TextImage */
+
+	.textimage {
+		border: 3px solid #7E9EED;
+		padding: 5px;
+		overflow: auto;
+		text-align: left;
+
+	}
+		.textimage .img1 {
+			float: right;
+		}
+
+		.textimage .details {
+		}
+
+			.textimage .details .title {
+				font-size: 30px;
+				font-weight: bold;
+				margin-left: 0px;
+				margin-bottom: 5px;
+			}
+
+			.textimage .details .date {
+				font-size: 18px;
+				margin-left: calc(30px - 18px);
+				margin-bottom: 25px;
+			}
+
+			.textimage .details .summary {
+				font-size: 22px;
+				margin-left: calc(30px - 22px);
+				margin-bottom: 0px;
+			}
+
+
+
 /* Main */
 
 	#main {
