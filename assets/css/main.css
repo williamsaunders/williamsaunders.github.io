@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	line-height: 1;
+	line-height: 10;
 }
 
 ol, ul {
@@ -71,6 +71,7 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+
 
 /* Basic */
 
@@ -129,6 +130,7 @@ input, select, textarea {
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
+		padding: 3;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -178,7 +180,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 		p.content {
@@ -2619,6 +2621,10 @@ input, select, textarea {
 		margin-bottom: 3em;
 	}
 
+		header.major .img1 {
+			float: right;
+		}
+
 		header.major h2 {
 			font-size: 2em;
 		}
@@ -3065,7 +3071,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 4em 5em 1em 7.5em ;
 		}
 
 			#header.alt h1 {
@@ -3344,6 +3350,7 @@ input, select, textarea {
 				margin-left: calc(30px - 22px);
 				margin-bottom: 0px;
 			}
+
 
 
 
@@ -3723,7 +3730,7 @@ input, select, textarea {
 			text-align: center;
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 4280px) {
 
 			#footer {
 				padding: 4em 4em 2em 4em ;
@@ -3731,7 +3738,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 9080px) {
 
 			#footer {
 				padding: 4em 3em 2em 3em ;
