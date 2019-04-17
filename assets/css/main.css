@@ -2487,7 +2487,10 @@ figure {
 	text-indent: 0;
 	margin: 0.5em;
 	padding: 0.5em;
-	max-width: 50%;
+	max-width: 30%;
+}
+figure img {
+	max-width: 100%
 }
 
 
