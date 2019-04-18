@@ -2465,33 +2465,22 @@ input, select, textarea {
 				width: 100%;
 			}
 
-#test{
-	width: 30%;
-	height: auto;
-	float: right;
-	margin: 1.5em;
-	display: inline-block;
-	text-align: left;
-	font-size: smaller;
-	float: right;
-	text-indent: 0;
-
-}
 
 figure {
 	float: right;
-	width: 30%;
+		width: 30%;
 	text-align: left;
 	font-style: italic;
 	font-size: smaller;
 	text-indent: 0;
 	margin: 0.5em;
 	padding: 0.5em;
-	max-width: 100%;
-	min-width: 150px;
+	max-width: calc(100% - 4em);
+	min-width: 300px;
 }
 figure img {
 	max-width: 100%;
+	height: auto;
 }
 
 
