@@ -2490,8 +2490,10 @@ figure {
 	max-width: 30%;
 }
 figure img {
-	max-width: 100%
+	max-width: 100%;
+	min-width: 150px;
 }
+
 
 
 /*figure {
