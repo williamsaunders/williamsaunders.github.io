@@ -3366,12 +3366,10 @@ figure {
 			max-width: 60%;
 			width : 300px;
 			height: auto;
-			display : -webkit-flex;
 		}
 
 		.textimage .details {
 			text-align : left;
-			display : -webkit-flex;
 		}
 
 			.textimage .details .title {
