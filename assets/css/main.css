@@ -3387,7 +3387,7 @@ figure {
 				margin-left: calc(26px - 20px);
 				margin-bottom: 0px;
 			}
-/*
+
 @media screen and (max-width: 1280px) {
 	.textimage.details.title {
 		font-size : 26px;
@@ -3435,7 +3435,6 @@ figure {
 		font-size : 12px;
 	}
 }
-*/
 
 
 /* Main */
