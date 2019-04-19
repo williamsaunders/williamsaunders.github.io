@@ -3362,8 +3362,8 @@ figure {
 		.textimage .img1 {
 			float: right;
 			max-width: 60%;
-			height : 250px;
-			width: auto;
+			width : 250px;
+			height: auto;
 		}
 
 		.textimage .details {
