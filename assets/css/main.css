@@ -3363,10 +3363,10 @@ figure {
 	}
 		.textimage .img1 {
 			float: right;
-			max-height: 63vw;
+			max-height: 65vw;
 			width : auto;
 			height: 300px;
-			padding : 15px;	
+			padding : 15px;
 		}
 
 		.textimage .details {
@@ -3375,27 +3375,31 @@ figure {
 
 			.textimage .details .title {
 				/*font-size: 26px;*/
-				font-size: calc(1vw + 16px);
+				font-size: 28px;
 				font-weight: bold;
 				margin-bottom : 10px;
 				margin-top : 10px;
 			}
-
+			
 			.textimage .details .date {
 				left-margin: 36px;
 				/*font-size: 16px;*/
-				font-size : calc(.3vw + 12px);
+				font-size : 18px;
 				margin-bottom : 15px;
 				margin-left : 40px;
 			}
 
 			.textimage .details .summary {
 				/*font-size: 20px;*/
-				font-size : calc(.4vw + 15px);
+				font-size : 22px;
 				margin-bottom : 10px;
 				margin-left : 6px;
 			}
 
+
+
+
+/*
 @media screen and (max-width: 1280px) {
 	.textimage.details.title {
 		font-size : 26px;
@@ -3443,7 +3447,7 @@ figure {
 		font-size : 12px;
 	}
 }
-
+*/
 
 /* Main */
 
@@ -3749,6 +3753,45 @@ figure {
 					width: calc(100% + 8em);
 				}
 
+			.textimage {
+				display: block;
+				border: 3px solid #7E9EED;
+				padding: 5px;
+				overflow: auto;
+				text-align: left;
+			}
+				.textimage .img1 {
+					float: right;
+					max-height: 65vw;
+					width : auto;
+					height: 300px;
+					padding : 15px;
+				}
+
+				.textimage .details {
+					text-align : left;
+				}
+
+					.textimage .details .title {
+						font-size: calc(1vw + 16px);
+						font-weight: bold;
+						margin-bottom : 10px;
+						margin-top : 10px;
+					}
+					
+					.textimage .details .date {
+						left-margin: 36px;
+						font-size: calc(.3vw + 12px);;
+						margin-bottom : 15px;
+						margin-left : 40px;
+					}
+
+					.textimage .details .summary {
+						font-size: calc(.4vw + 15px);;
+						margin-bottom : 10px;
+						margin-left : 6px;
+					}	
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3761,6 +3804,45 @@ figure {
 					margin: -4em 0 4em -3em;
 					width: calc(100% + 6em);
 				}
+			.textimage {
+				display: block;
+				border: 3px solid #7E9EED;
+				padding: 5px;
+				overflow: auto;
+				text-align: left;
+			}
+				.textimage .img1 {
+					float: right;
+					max-height: 65vw;
+					width : auto;
+					height: 300px;
+					padding : 15px;
+				}
+
+				.textimage .details {
+					text-align : left;
+				}
+
+					.textimage .details .title {
+						font-size: calc(1vw + 16px);
+						font-weight: bold;
+						margin-bottom : 10px;
+						margin-top : 10px;
+					}
+					
+					.textimage .details .date {
+						left-margin: 36px;
+						font-size: calc(.3vw + 12px);;
+						margin-bottom : 15px;
+						margin-left : 40px;
+					}
+
+					.textimage .details .summary {
+						font-size: calc(.4vw + 15px);;
+						margin-bottom : 10px;
+						margin-left : 6px;
+					}
+
 
 		}
 
@@ -3775,10 +3857,50 @@ figure {
 					width: calc(100% + 4em);
 				}
 
+			.textimage {
+				display: block;
+				border: 3px solid #7E9EED;
+				padding: 5px;
+				overflow: auto;
+				text-align: left;
+			}
+				.textimage .img1 {
+					float: right;
+					width: 40vw;
+					min-width : 200px;
+					height: auto;
+					padding : 15px;
+				}
+
+				.textimage .details {
+					text-align : left;
+				}
+
+					.textimage .details .title {
+						font-size: calc(1vw + 16px);
+						font-weight: bold;
+						margin-bottom : 10px;
+						margin-top : 10px;
+					}
+					
+					.textimage .details .date {
+						left-margin: 36px;
+						font-size: calc(.3vw + 12px);;
+						margin-bottom : 15px;
+						margin-left : 40px;
+					}
+
+					.textimage .details .summary {
+						font-size: calc(.4vw + 15px);;
+						margin-bottom : 10px;
+						margin-left : 6px;
+					}
+
+
 		}
 
 		@media screen and (max-width: 480px) {
-
+/* NEED TO MAKE BOX VERTICAL FOR ALL SMALLER SIZES*/
 			#main > .main {
 				padding: 3em 1.5em 1em 1.5em ;
 			}
@@ -3787,6 +3909,50 @@ figure {
 					margin: -3em 0 1.5em -1.5em;
 					width: calc(100% + 3em);
 				}
+
+			.textimage {
+				display: block;
+				border: 3px solid #7E9EED;
+				padding: 5px;
+				overflow: auto;
+				text-align: left;
+				margin : 20px;
+			}
+				.textimage .img1 {
+					display : block;
+					float: right;
+					width: 80%;
+					height: auto;
+					padding : 15px;
+					margin-right : calc((100% - 80%)/2);
+				}
+
+				.textimage .details {
+					text-align : left;
+					display : block;
+					margin-right: 10px;
+				}
+
+					.textimage .details .title {
+						font-size: calc(1vw + 16px);
+						font-weight: bold;
+						margin-bottom : 10px;
+						margin-top : 10px;
+					}
+					
+					.textimage .details .date {
+						left-margin: 36px;
+						font-size: calc(.3vw + 12px);;
+						margin-bottom : 15px;
+						margin-left : 40px;
+					}
+
+					.textimage .details .summary {
+						font-size: calc(.4vw + 15px);;
+						margin-bottom : 10px;
+						margin-left : 6px;
+					}
+
 
 		}
 
