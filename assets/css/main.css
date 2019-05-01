@@ -3101,8 +3101,9 @@ figure {
 		}
 
 		#header p {
-			font-size: 1.25em;
 			letter-spacing: -0.025em;
+			line-height : 15px;
+			font-size : 22px;
 		}
 
 		#header.alt {
@@ -3154,6 +3155,11 @@ figure {
 					padding: 6em 4em 3em 4em ;
 				}
 
+				#header p {
+					line-height : 15px;
+					font-size : 22px;
+				}
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3166,6 +3172,11 @@ figure {
 					padding: 5em 3em 2em 3em ;
 				}
 
+				#header p {
+					line-height : 14px;
+					font-size : 20px;
+				}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3175,8 +3186,9 @@ figure {
 			}
 
 				#header p {
-					font-size: 1em;
+					font-size: 18px;
 					letter-spacing: 0;
+					line-height : 10px;
 				}
 
 					#header p br {
@@ -3214,6 +3226,7 @@ figure {
 				#header.alt {
 					padding: 3.5em 1em 0.5em 1em ;
 				}
+
 
 		}
 
