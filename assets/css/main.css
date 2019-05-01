@@ -3100,11 +3100,11 @@ figure {
 			margin: 0 0 0.25em 0;
 		}
 
-		#header li {
+		#header.alt li {
 			letter-spacing: -0.025em;
 			line-height : 15px;
-			font-size : 22px;
-			margin: 15px;
+			font-size : 24px;
+			margin: 20px;
 		}
 
 		#header.alt {
@@ -3156,10 +3156,10 @@ figure {
 					padding: 6em 4em 3em 4em ;
 				}
 
-				#header li {
-					line-height : 15px;
+				#header.alt li {
+					line-height : 18px;
 					font-size : 22px;
-					margin: 15px;
+					margin: 16px;
 				}
 
 		}
@@ -3174,10 +3174,10 @@ figure {
 					padding: 5em 3em 2em 3em ;
 				}
 
-				#header li {
+				#headera.t li {
 					line-height : 14px;
 					font-size : 20px;
-					margin: 15px;
+					margin: 16px;
 				}
 
 		}
@@ -3188,7 +3188,7 @@ figure {
 				padding: 3em 2em 0.1em 2em ;
 			}
 
-				#header li {
+				#header.alt li {
 					font-size: 18px;
 					letter-spacing: 0;
 					line-height : 10px;
@@ -3219,7 +3219,7 @@ figure {
 					padding: 4em 1.5em 1em 1.5em ;
 				}
 
-				#header li {
+				#header.alt li {
 					font-size: 16px;
 					margin: 15px;
 				}
@@ -3231,8 +3231,8 @@ figure {
 				padding: 2.5em 1em 0.1em 1em ;
 			}
 
-			#header li {
-				font-size: 14px;
+			#header.alt li {
+				font-size: 16px;
 				line-height : 30px;
 				margin: 15px;
 			}	
