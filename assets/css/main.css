@@ -3215,6 +3215,10 @@ figure {
 					padding: 4em 1.5em 1em 1.5em ;
 				}
 
+				#header p {
+					font-size: 16px;
+					line-height : 10px;
+				}
 		}
 
 		@media screen and (max-width: 360px) {
@@ -3223,10 +3227,14 @@ figure {
 				padding: 2.5em 1em 0.1em 1em ;
 			}
 
+			#header p {
+				font-size: 14px;
+				line-height : 10px;
+			}	
+
 				#header.alt {
 					padding: 3.5em 1em 0.5em 1em ;
 				}
-
 
 		}
 
