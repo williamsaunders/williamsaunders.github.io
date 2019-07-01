@@ -3535,6 +3535,16 @@ figure {
 			border-color: #dddddd;
 		}
 
+		#main red {
+			text-align: center;
+			margin-left: 100px;
+			margin-right: 100px;
+			display: block;
+			color: #780303;
+			font-weight: bold;
+			font-size: larger;
+		}
+
 		#main input[type="submit"],
 		#main input[type="reset"],
 		#main input[type="button"],
