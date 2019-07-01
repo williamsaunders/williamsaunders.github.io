@@ -193,6 +193,15 @@ input, select, textarea {
 	p {
 		margin: 0 0 1em 0;
 	}
+		p.red {
+			text-align: center;
+			margin-left: 100px;
+			margin-right: 100px;
+			display: block;
+			color: #780303;
+			font-weight: bold;
+			font-size: larger;
+		}
 
 		p.content {
 			-moz-columns: 20em 2;
@@ -3535,15 +3544,6 @@ figure {
 			border-color: #dddddd;
 		}
 
-		#main red {
-			text-align: center;
-			margin-left: 100px;
-			margin-right: 100px;
-			display: block;
-			color: #780303;
-			font-weight: bold;
-			font-size: larger;
-		}
 
 		#main input[type="submit"],
 		#main input[type="reset"],
