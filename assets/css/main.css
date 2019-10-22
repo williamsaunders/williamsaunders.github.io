@@ -3377,6 +3377,7 @@ figure {
 
 		}
 
+
 /* TextImage */
 
 	.textimage {
@@ -4118,5 +4119,5 @@ figure {
 		display: block;
 		color: #780303;
 		font-weight: bold;
-		font-size: larger;
+		font-size: larger; 
 	}
