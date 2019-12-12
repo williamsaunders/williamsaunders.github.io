@@ -3688,11 +3688,12 @@ figure {
 		#main figure.asblogo { 
 			display: block;
 			float: left;
-			width: 100vw;
+            width: auto;
 		}
 
 			#main figure.asblogo img{
 				height: 50px;
+                min-width: auto;
 				width: auto;
 				height: 50px;
 				max-height: 50px;
