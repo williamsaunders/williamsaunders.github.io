@@ -3392,8 +3392,8 @@ figure {
         
         @media screen and (max-width: 980px) {
             #divtop {
-            height : 5em;
-        }   
+                height : 5em;
+            }   
         }
 
         @media screen and (max-width: 736px) {
@@ -3401,7 +3401,7 @@ figure {
                 height : 6em;
                 width: auto;
             }
-            }
+        }
 
         @media screen and (max-width: 480px) {
             #divtop {
@@ -3411,19 +3411,8 @@ figure {
             #nav {
                 max-width : calc(100% - 2em);
             } 
-
         }
 
-/*        @media screen and (max-width: 412px) {
-            #divtop {
-                height : 7em;
-                width : calc(100% - 2em);
-            }  
-            #nav {
-                max-width : calc(100% - 2em);
-            } 
-
-        } */
 
         @media screen and (max-width: 410px) {
             #divtop {
@@ -3696,17 +3685,17 @@ figure {
 			}
 
 
-		#main figure.logo { 
+		#main figure.asblogo { 
 			display: block;
 			float: left;
 			width: 100vw;
 		}
 
-			#main figure.logo img{
+			#main figure.asblogo img{
 				height: 50px;
 				width: auto;
-				min-height: 50px;
-				max-height: 100px;
+				height: 50px;
+				max-height: 50px;
 			}
 
 
