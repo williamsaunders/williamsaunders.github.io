@@ -4008,11 +4008,17 @@ figure {
 					border-bottom-left-radius: 0;
 				}
 
-		@media screen and (max-width: 1600px) {
+		@media screen and (max-width: 1400px) {
 
 			#main > .main {
 				padding: 4em 4em 2em 4em ;
 			}
+
+				#main > .main > .image.main:first-child {
+					margin: -4em 0 4em -4em;
+					width: calc(100% + 8em);
+				}
+				
 			.textimage {
 				display: block;
 				border: 3px solid #7E9EED;
