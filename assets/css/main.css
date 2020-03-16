@@ -3730,7 +3730,7 @@ figure {
 			border-bottom-color: #dddddd;
 		}
 
-		#main div.textimage {
+/*		#main div.textimage {
 				display: block;
 				border: 3px solid #7E9EED;
 				padding: 5px;
@@ -3751,7 +3751,6 @@ figure {
 				}
 
 					.textimage .details .title {
-						/*font-size: 26px;*/
 						font-size: 28px;
 						font-weight: bold;
 						margin-bottom : 10px;
@@ -3760,18 +3759,16 @@ figure {
 					
 					.textimage .details .date {
 						left-margin: 36px;
-						/*font-size: 16px;*/
 						font-size : 18px;
 						margin-bottom : 15px;
 						margin-left : 40px;
 					}
 
 					.textimage .details .summary {
-						/*font-size: 20px;*/
 						font-size : 22px;
 						margin-bottom : 10px;
 						margin-left : 6px;
-					}
+					}*/
 
 		#main .box {
 			border-color: #dddddd;
@@ -4011,7 +4008,7 @@ figure {
 					border-bottom-left-radius: 0;
 				}
 
-/*		@media screen and (max-width: 4000px) {
+		@media screen and (max-width: 1600px) {
 
 			#main > .main {
 				padding: 4em 4em 2em 4em ;
@@ -4056,7 +4053,7 @@ figure {
 						margin-left : 6px;
 					}	
 
-			}*/
+			}
 
 		@media screen and (max-width: 1280px) {
 
