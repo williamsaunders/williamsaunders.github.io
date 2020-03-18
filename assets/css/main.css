@@ -3148,7 +3148,7 @@ figure {
 					max-width: 75%;
 				}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1290px) {
 
 			#header {
 				padding: 4em 4em 0.1em 4em ;
@@ -3545,7 +3545,7 @@ figure {
 
 /* TextImage */
 
-	.textimage {
+	#textimage {
 		display: block;
 		border: 3px solid #7E9EED;
 		padding: 5px;
@@ -3553,7 +3553,7 @@ figure {
 		text-align: left;
 
 	}
-		.textimage .img1 {
+		#textimage .img1 {
 			float: right;
 			max-height: 65vw;
 			width : auto;
@@ -3561,11 +3561,11 @@ figure {
 			padding : 15px;
 		}
 
-		.textimage .details {
+		#textimage .details {
 			text-align : left;
 		}
 
-			.textimage .details .title {
+			#textimage .details .title {
 				/*font-size: 26px;*/
 				font-size: 28px;
 				font-weight: bold;
@@ -3573,7 +3573,7 @@ figure {
 				margin-top : 10px;
 			}
 			
-			.textimage .details .date {
+			#textimage .details .date {
 				left-margin: 36px;
 				/*font-size: 16px;*/
 				font-size : 18px;
@@ -3581,7 +3581,7 @@ figure {
 				margin-left : 40px;
 			}
 
-			.textimage .details .summary {
+			#textimage .details .summary {
 				/*font-size: 20px;*/
 				font-size : 22px;
 				margin-bottom : 10px;
@@ -4008,7 +4008,7 @@ figure {
 					border-bottom-left-radius: 0;
 				}
 
-		@media screen and (max-width: 1400px) {
+		@media screen and (max-width: 1299px) {
 
 			#main > .main {
 				padding: 4em 4em 2em 4em ;
@@ -4018,7 +4018,7 @@ figure {
 					margin: -4em 0 4em -4em;
 					width: calc(100% + 8em);
 				}
-				
+
 			.textimage {
 				display: block;
 				border: 3px solid #7E9EED;
