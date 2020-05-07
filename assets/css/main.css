@@ -4412,3 +4412,23 @@ figure {
 		font-weight: bold;
 		font-size: larger; 
 	}
+
+/*SoudCloud player*/
+	.iframe .soundcloudbig {
+		height: 166px;
+	}
+		@media screen and (max-width: 1000) {
+			.iframe .soundcloudbig {
+				height: 0;
+			}
+		}
+	
+	.iframe .soundcloudsmall {
+		height: 0px;
+	}
+		@media screen and (max-width:1000) {
+			.iframe .soundcloudsmall {
+				height: 20px;
+			}
+		}
+
