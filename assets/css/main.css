@@ -3651,7 +3651,7 @@ figure {
 		#main figure {
 			display: block;
 			float: right;
-			width: 30%;
+			/*width: 30%;*/
 			text-align: left;
 			font-style: italic;
 			font-size: smaller;
@@ -3660,6 +3660,7 @@ figure {
 			padding: 0.5em;
 			max-width: calc(100% - 4em);
 			min-width: 300px;
+			width: 300px;
 		}
 			#main figure img{
 				display: block ;
