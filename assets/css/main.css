@@ -1,6 +1,15 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
 
+
+
+[id] {
+    scroll-margin-top: 60px !important;
+}
+
+
+
+
 /*
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
@@ -2655,7 +2664,7 @@ figure {
 	}
 
 	header.major {
-		margin-bottom: 3em;
+		margin-bottom: -1em;
 	}
 
 		header.major .img1 {
@@ -2671,7 +2680,7 @@ figure {
 				content: '';
 				width: 3.25em;
 				height: 2px;
-				margin: 0.7em 0 1em 0;
+				margin: 0.5em 0 1em 0;
 				border-radius: 2px;
 			}
 
@@ -3105,12 +3114,12 @@ figure {
 		#header.alt li {
 			letter-spacing: -0.025em;
 			line-height : 15px;
-			font-size : 24px;
+			font-size : 28px;
 			margin: 20px;
 		}
 
 		#header.alt {
-			padding: 4em 5em 1em 7.5em ;
+			padding: 4em 0em 1em 0em ;
 		}
 
 			#header.alt h1 {
@@ -4012,7 +4021,7 @@ figure {
 		@media screen and (max-width: 2000px) {
 
 			#main > .main {
-				padding: 4em 4em 2em 4em ;
+				padding: 3em 4em 2em 4em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -4432,4 +4441,5 @@ figure {
 				height: 20px;
 			}
 		}
+
 
